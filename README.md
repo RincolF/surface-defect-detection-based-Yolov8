@@ -20,7 +20,7 @@
 - **文件监控**：Watchdog
 - **数据可视化**：PyQtGraph / Matplotlib
 
-![](.\images\pic8.png)
+![](./images/pic8.png)
 
 
 
@@ -28,7 +28,7 @@
 
 本项目由我个人独立完成开发、测试和部署。
 
-![](.\images\pic9.png)
+![](./images/pic9.png)
 
 ### 3.1 核心功能开发
 
@@ -76,7 +76,7 @@
 
 软件初始界面：
 
-![初始界面](.\images\pic1.png)
+![初始界面](./images/pic1.png)
 
 ### 4.2 检测流程说明
 
@@ -90,15 +90,15 @@
 
 软件运行时：
 
-![](.\images\pic4.png)
+![](./images/pic4.png)
 
 近景缺陷检测结果：
 
-![](.\images\pic2.png)
+![](./images/pic2.png)
 
 远景缺陷检测结果：
 
-![](.\images\pic3.png)
+![](./images/pic3.png)
 
 ### 4.3 数据可视化系统
 
@@ -110,17 +110,17 @@
 - 日历热图展示
 - 数据表格展示与导出
 
-![](.\images\pic6.png)
+![](./images/pic6.png)
 
 ### 4.4 gif图演示
 
 缺陷检测系统：
 
-![](.\images\gif1.gif)
+![](./images/gif1.gif)
 
 数据可视化系统：
 
-![](.\images\gif2.gif)
+![](./images/gif2.gif)
 
 
 
@@ -184,11 +184,11 @@ Detect/
 
 对于零件近景的图案，首先对图片进行预处理，仅保留图案信息。
 
-![](.\images\pic10.png)
+![](./images/pic10.png)
 
 对于复杂的缺陷，比如轻度欠缺以及色不均的问题，需要对图像进行二次处理，即色彩比对。
 
-![](.\images\pic11.png)
+![](./images/pic11.png)
 
 #### 数据集构建及模型训练
 
@@ -200,15 +200,15 @@ Detect/
 
 模型训练完成后，使用验证集进行测试，模型输出的效果以 **检测框+缺陷类型+置信度** 的形式显示。
 
-![](.\images\pic12.png)
+![](./images/pic12.png)
 
 #### 模型训练结果
 
-![](.\images\pic13.png)
+![](./images/pic13.png)
 
-![](.\images\pic14.png)
+![](./images/pic14.png)
 
-![](.\images\pic15.png)
+![](./images/pic15.png)
 
 
 
